@@ -15,6 +15,7 @@
 		9C1AAA701C8FCD8F0027BB2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AAA6E1C8FCD8F0027BB2E /* LaunchScreen.storyboard */; };
 		9C1AAA7B1C8FCD8F0027BB2E /* CI_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AAA7A1C8FCD8F0027BB2E /* CI_testTests.m */; };
 		9C1AAA861C8FCD8F0027BB2E /* CI_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1AAA851C8FCD8F0027BB2E /* CI_testUITests.m */; };
+		9C1AAA971C90024F0027BB2E /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9C1AAA961C90024F0027BB2E /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,7 @@
 		9C1AAA811C8FCD8F0027BB2E /* CI-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CI-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1AAA851C8FCD8F0027BB2E /* CI_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CI_testUITests.m; sourceTree = "<group>"; };
 		9C1AAA871C8FCD8F0027BB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C1AAA931C8FFCD40027BB2E /* .travis.yml.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = .travis.yml.xcconfig; sourceTree = "<group>"; };
+		9C1AAA961C90024F0027BB2E /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +83,7 @@
 		9C1AAA541C8FCD8E0027BB2E = {
 			isa = PBXGroup;
 			children = (
-				9C1AAA931C8FFCD40027BB2E /* .travis.yml.xcconfig */,
+				9C1AAA961C90024F0027BB2E /* .travis.yml */,
 				9C1AAA5F1C8FCD8E0027BB2E /* CI-test */,
 				9C1AAA791C8FCD8F0027BB2E /* CI-testTests */,
 				9C1AAA841C8FCD8F0027BB2E /* CI-testUITests */,
@@ -247,6 +248,7 @@
 			files = (
 				9C1AAA701C8FCD8F0027BB2E /* LaunchScreen.storyboard in Resources */,
 				9C1AAA6D1C8FCD8F0027BB2E /* Assets.xcassets in Resources */,
+				9C1AAA971C90024F0027BB2E /* .travis.yml in Resources */,
 				9C1AAA6B1C8FCD8F0027BB2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
