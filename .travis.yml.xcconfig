@@ -1,0 +1,14 @@
+//
+//  .travis.yml.xcconfig
+//  CI-test
+//
+//  Created by 林智敏 on 16/3/9.
+//  Copyright © 2016年 林智敏. All rights reserved.
+//
+
+language: objective-c
+before_install:
+- brew update
+- brew install xctool
+script: xctool -project LighterViewControllerDemo.xcodeproj -scheme
+LighterViewControllerDemo -sdkiphonesimulator  test
