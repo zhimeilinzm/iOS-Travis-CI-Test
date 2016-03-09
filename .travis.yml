@@ -1,6 +1,4 @@
+
 language: objective-c
-before_install:
-- brew update
-- brew install xctool
-script: xctool -project CI-test.xcodeproj -scheme
-CI-test -sdkiphonesimulator  test
+xcode_project: /Users/linzhimin/code/iOS-Travis-CI-Test/CI-test.xcodeproj # path to your xcodeproj folder
+xcode_scheme: CI-test
