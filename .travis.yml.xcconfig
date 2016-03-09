@@ -10,5 +10,5 @@ language: objective-c
 before_install:
 - brew update
 - brew install xctool
-script: xctool -project LighterViewControllerDemo.xcodeproj -scheme
-LighterViewControllerDemo -sdkiphonesimulator  test
+script: xctool -project CI-test.xcodeproj -scheme
+CI-test -sdkiphonesimulator  test
