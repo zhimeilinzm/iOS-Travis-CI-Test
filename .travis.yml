@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: CI-test.xcodeproj
-xcode_scheme: CI-test 
+xcode_scheme: CI-test
+xcode_sdk： iphonesimulator9.0
