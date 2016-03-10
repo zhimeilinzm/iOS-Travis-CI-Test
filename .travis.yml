@@ -1,4 +1,3 @@
-
 language: objective-c
 xcode_project: /Users/linzhimin/code/iOS-Travis-CI-Test/CI-test.xcodeproj # path to your xcodeproj folder
 xcode_scheme: CI-test
