@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					9C1AAA5C1C8FCD8E0027BB2E = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8T4PNLXJ4E;
 					};
 					9C1AAA751C8FCD8F0027BB2E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -417,10 +418,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智敏 林 (79D6ZAXF5B)";
 				INFOPLIST_FILE = "CI-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qianhai.CI-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b87c044-87d8-414b-82e2-c0722decfdb9";
 			};
 			name = Debug;
 		};
@@ -428,10 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智敏 林 (79D6ZAXF5B)";
 				INFOPLIST_FILE = "CI-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qianhai.CI-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b87c044-87d8-414b-82e2-c0722decfdb9";
 			};
 			name = Release;
 		};
@@ -502,6 +507,7 @@
 				9C1AAA8C1C8FCD8F0027BB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C1AAA8D1C8FCD8F0027BB2E /* Build configuration list for PBXNativeTarget "CI-testTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +516,7 @@
 				9C1AAA8F1C8FCD8F0027BB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C1AAA901C8FCD8F0027BB2E /* Build configuration list for PBXNativeTarget "CI-testUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				9C1AAA921C8FCD8F0027BB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
